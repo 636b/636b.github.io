@@ -4,16 +4,16 @@
 
 Everything posted on this site will be signed with a signature. There are two
 ways of verifying the signature. Either download the signing key directly from
-<https://636b.xyz/636b-xyz-signing-key.asc>
+<https://636b.xyz/keys/636b-xyz-signing-key.asc>
 along with its digests file
-<https://636b.xyz/636b-xyz-signing-key.DIGESTS>
+<https://636b.xyz/keys/636b-xyz-signing-key.DIGESTS>
 or obtain the key from a key-server.
 
 To obtain the signing key directly from the site, issue the following commands:
 
 ```console
-$ curl -O https://636b.xyz/636b-xyz-signing-key.asc
-$ curl -O https://636b.xyz/636b-xyz-signing-key.asc.DIGESTS
+$ curl -O https://636b.xyz/keys/636b-xyz-signing-key.asc
+$ curl -O https://636b.xyz/keys/636b-xyz-signing-key.asc.DIGESTS
 $ md5sum -c ./636b-xyz-signing-key.asc.DIGESTS
 $ sha1sum -c ./636b-xyz-signing-key.asc.DIGESTS
 $ sha256sum -c ./636b-xyz-signing-key.asc.DIGESTS
